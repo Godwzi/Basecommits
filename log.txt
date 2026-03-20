@@ -41,6 +41,7 @@ def resolve_host(host):
 ip = resolve_host(target)
 found = scan_ports(ip)
 print("-" * 40)
+print(f"[*] Scan complete. {len(found)} open port(s) found.")
 
 
 
