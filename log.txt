@@ -38,5 +38,5 @@ def resolve_host(host):
         sys.exit()
 
 # Run
-
+ip = resolve_host(target)
 
