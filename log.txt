@@ -9,7 +9,7 @@ target = "192.168.1.1"
 print(f"[*] Scanning target: {target}")
 print(f"[*] Time started: {datetime.now()}")
 print("-" * 40)
-asdfghjklpoiuytrewqzxcvbnmlokjhgfdsaqwrtuijknjbvcdddfghjnnbffdfghnnbvcdfghnmnmjhgvv
+asdfghjklpoiuytrewqzxcvbnmlokjhgfdsaqwrtuijknjbvcdddfghjnnbffdfghnnbvcdfghnmnmjhgv
 # Port scanner
 def scan_ports(host, start=1, end=1024):
     open_ports = []
